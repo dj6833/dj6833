@@ -65,8 +65,8 @@ To simulate an active, iterative product lifecycle, I maintain a development bac
 The following issues have been identified and require fixing:
 
 * **Browsing Compatibility:** Safari and Incognito Mode are currently unsupported because cross-site cookies are blocked by default in those environments.
-* **Landing Page Analytics:** Dashboard totals are currently inaccurate because they run on the client-side; these will be moved to server-side stats endpoints.
-* **Database Deployments:** Production deployments currently rely on `drizzle-kit push` (which is risky). This is a temporary workaround due to an issue where `drizzle-kit migrate` fails to commit schema updates.
+* **Landing Page Analytics:** Dashboard totals are calculated from a single page of results and can be inaccurate; these will be moved to server-side stats endpoints.
+* **Database Deployments:** Deployments currently rely on `drizzle-kit push`. This is a temporary workaround due to an issue where `drizzle-kit migrate` fails to commit schema updates. (Not recommended for production)
 
 ### 📂 Explore the Source Code
 The complete implementation comprises the following three repositories:
