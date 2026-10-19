@@ -61,7 +61,7 @@ To simulate an active, iterative product lifecycle, I maintain a development bac
 | **Infrastructure** | **Distributed Caching Infrastructure:** Implement a caching tier ahead of the database to optimize read-heavy routes | Redis, Neon PostgreSQL |
 | **Architecture** | **Next-Gen Frontend Migration:** Evaluate the trade-offs of migrating the as-is client-rendered application into a server-rendered model | Next.js (App Router), React Server Components (RSCs) |
 
-## ⚠️ Known Limitations
+### ⚠️ Known Limitations
 The following items have been noted:
 
 * **Landing Page:** Dashboard totals currently inaccurate as run on the client-side but will move to server-side stats endpoints.
