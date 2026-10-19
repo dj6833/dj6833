@@ -57,17 +57,16 @@ To simulate an active, iterative product lifecycle, I maintain a development bac
 | **Core Feature** | **Display Schedules:** Present personalised student and teacher views displaying their weekly class timetables; introduce notification system to alert students to any class timetable clashes | React, Refine |
 | **Automation & Background Tasks** | **Asynchronous Document Engine:** Implement background processing to generate automated student welcome packs and PDFs containing personalised timetables | Serverless Functions / Celery / Redis |
 | **Reporting** | **Reporting & Metrics Layer:** Integrate a reporting panel to aggregate system data and provide data-driven insights | Reporting stack TBC |
-| **Testing** | **Test Coverage Expansion:** Extend frontend and introduce backend automated test coverage | Playwright, Vitest, PyTest |
+| **Testing** | **Test Coverage Expansion:** Extend frontend Playwright tests and introduce backend automated test coverage | Playwright, Vitest, PyTest |
 | **Infrastructure** | **Distributed Caching Infrastructure:** Implement a caching tier ahead of the database to optimize read-heavy routes | Redis, Neon PostgreSQL |
 | **Architecture** | **Next-Gen Frontend Migration:** Evaluate the trade-offs of migrating the as-is client-rendered application into a server-rendered model | Next.js (App Router), React Server Components (RSCs) |
 
 ### ⚠️ Known Limitations
-The following items have been noted:
+The following issues have been identified and require fixing:
 
-* **Browsing Issues:** Safari and Incognito Mode Browsing currently not supported due to cross-site cookies blocked by this browser/mode.
-* **Landing Page:** Dashboard totals currently inaccurate as run on the client-side but will move to server-side stats endpoints.
-* **Database Deployments:** Deployments currently rely on `drizzle-kit push` (risky) due to an issue with `drizzle-kit migrate` not commiting schema updates.
-* **Testing Coverage:** Basic testing is in place, but comprehensive backend tests and a fuller Playwright suite are planned.
+* **Browsing Compatibility:** Safari and Incognito Mode are currently unsupported because cross-site cookies are blocked by default in those environments.
+* **Landing Page Analytics:** Dashboard totals are currently inaccurate because they run on the client-side; these will be moved to server-side stats endpoints.
+* **Database Deployments:** Production deployments currently rely on `drizzle-kit push` (which is risky). This is a temporary workaround due to an issue where `drizzle-kit migrate` fails to commit schema updates.
 
 ### 📂 Explore the Source Code
 The complete implementation comprises the following three repositories:
