@@ -64,8 +64,9 @@ To simulate an active, iterative product lifecycle, I maintain a development bac
 ### ⚠️ Known Limitations
 The following items have been noted:
 
+* **Browsing Issues:** Safari and Incognito Mode Browsing currently not supported due to cross-site cookies blocked by this browser/mode.
 * **Landing Page:** Dashboard totals currently inaccurate as run on the client-side but will move to server-side stats endpoints.
-* **Database Deployments:** Production deployments currently rely on schema pushes but will transition to versioned migrations.
+* **Database Deployments:** Deployments currently rely on `drizzle-kit push` (risky) due to an issue with `drizzle-kit migrate` not commiting schema updates.
 * **Testing Coverage:** Basic testing is in place, but comprehensive backend tests and a fuller Playwright suite are planned.
 
 ### 📂 Explore the Source Code
