@@ -1,8 +1,10 @@
 # Hi there! Thanks for checking my profile. 👋
 
+I’m a software engineer and solution designer (17 years in supply chain and customs compliance software), currently rebuilding hands-on skills in modern web stacks. This is my featured project.
+
 ## 🚀 Featured Project: University Management System
 
-During a structured career break, I used the time to upskill in modern open-source web technologies and cloud-native architectures. I implemented and built upon a decoupled, full-stack University Management system to serve as an ongoing testing ground for modern coding languages, infrastructure toolsets, and deployment processes.
+After a career break, I’ve been upskilling in modern open-source web technologies and cloud-native architectures. I built and extended a decoupled, full-stack University Management system as an ongoing testing ground for modern languages, infrastructure tooling and deployment processes.
 
 ### 🛠️ Architecture & Tech Stack
 
@@ -68,4 +70,5 @@ The complete implementation comprises the following three repositories:
 ---
 
 ### 📬 How to reach me
-For a detailed technical walkthrough of the site, or if you are sourcing for a hands-on technical or analytical role, please contact me directly using the details available on my CV.
+
+For a detailed technical walkthrough of the site, or if you’re recruiting for solutions, implementation, technical analyst or development roles, please contact me using the details on my CV.
