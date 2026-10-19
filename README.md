@@ -61,6 +61,13 @@ To simulate an active, iterative product lifecycle, I maintain a development bac
 | **Infrastructure** | **Distributed Caching Infrastructure:** Implement a caching tier ahead of the database to optimize read-heavy routes | Redis, Neon PostgreSQL |
 | **Architecture** | **Next-Gen Frontend Migration:** Evaluate the trade-offs of migrating the as-is client-rendered application into a server-rendered model | Next.js (App Router), React Server Components (RSCs) |
 
+## ⚠️ Known Limitations
+The following items have been noted:
+
+* **Landing Page:** Dashboard totals currently inaccurate as run on the client-side but will move to server-side stats endpoints.
+* **Database Deployments:** Production deployments currently rely on schema pushes but will transition to versioned migrations.
+* **Testing Coverage:** Basic testing is in place, but comprehensive backend tests and a fuller Playwright suite are planned.
+
 ### 📂 Explore the Source Code
 The complete implementation comprises the following three repositories:
 *   **[Frontend Application](https://github.com/dj6833/university-frontend)** - React
