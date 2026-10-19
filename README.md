@@ -11,7 +11,7 @@ After a career break, I’ve been upskilling in modern open-source web technolog
 * **Front-End:** React, Vite, Refine (Enterprise CRUD framework), TanStack (State & Data Management), Tailwind CSS, Zod schema validation
 * **Back-End:** Node.js (Express) & Python (FastAPI) microservices
 * **Database & ORM:** PostgreSQL (Neon Serverless), Drizzle-ORM, normalised relational schemas with custom variable-driven data seeding scripts
-* **Cloud, DevOps & Security:** Vercel, Railway & Render cloud hosting, GitHub Actions CI/CD pipelines orchestrating a multi-stage Git-flow lifecycle (Local -> Staging automation with Playwright regression testing -> Production promotion), Docker containerisation, Site24x7 monitoring, Better-auth secure session handling, Arcjet protection, Cloudinary asset management
+* **Cloud, DevOps & Security:** Vercel & Render cloud hosting, GitHub Actions CI/CD pipelines orchestrating a multi-stage Git-flow lifecycle (Local -> Staging automation with Playwright regression testing -> Production promotion), Docker containerisation, Site24x7 monitoring, Better-auth secure session handling, Arcjet protection, Cloudinary asset management
 
 ### 🔐 Site Access
 **If you are a hiring manager or recruiter looking to view the system** please follow the dedicated **project link** available in the header of my CV. This link will open the site and pre-populate the login screen, enabling access as a student-profile user.
